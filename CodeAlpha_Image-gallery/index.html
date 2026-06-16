@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlens — Photo Gallery</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round"
+             stroke-linejoin="round" aria-hidden="true">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1
+                   2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+          <circle cx="12" cy="13" r="4"/>
+        </svg>
+        Wanderlens
+      </div>
+      <p class="header-sub">A visual journey around the world</p>
+    </div>
+  </header>
+
+  <div class="filter-bar" role="group" aria-label="Filter gallery">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="nature">Nature</button>
+    <button class="filter-btn" data-filter="city">City</button>
+    <button class="filter-btn" data-filter="ocean">Ocean</button>
+  </div>
+
+
+  <main class="gallery-grid" id="gallery" aria-label="Photo gallery">
+
+
+    <div class="gallery-item" data-category="nature" data-index="0"
+         role="button" tabindex="0" aria-label="Open image: Misty Forest Trail">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80"
+          alt="Sunlight filtering through a dense misty forest"
+          loading="lazy" />
+      
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      
+      <div class="card-caption">
+        <span class="caption-title">Misty Forest Trail</span>
+        <span class="caption-tag">Nature</span>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-category="city" data-index="1"
+         role="button" tabindex="0" aria-label="Open image: Tokyo at Dusk">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80"
+          alt="Tokyo city lights glowing at dusk with tower in background"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Tokyo at Dusk</span>
+        <span class="caption-tag">City</span>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-category="ocean" data-index="2"
+         role="button" tabindex="0" aria-label="Open image: Turquoise Horizon">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&q=80"
+          alt="Calm turquoise ocean waves meeting a pale sky"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Turquoise Horizon</span>
+        <span class="caption-tag">Ocean</span>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-category="nature" data-index="3"
+         role="button" tabindex="0" aria-label="Open image: Golden Hour Meadow">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=80"
+          alt="Wildflower meadow bathed in warm golden hour light"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Golden Hour Meadow</span>
+        <span class="caption-tag">Nature</span>
+      </div>
+    </div>
+
+  
+    <div class="gallery-item" data-category="city" data-index="4"
+         role="button" tabindex="0" aria-label="Open image: Rainy Street, Paris">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80"
+          alt="Reflections on a wet cobblestone street in Paris at night"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Rainy Street, Paris</span>
+        <span class="caption-tag">City</span>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-category="ocean" data-index="5"
+         role="button" tabindex="0" aria-label="Open image: Storm Surge">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?w=600&q=80"
+          alt="Dramatic storm waves crashing against rocky shore"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Storm Surge</span>
+        <span class="caption-tag">Ocean</span>
+      </div>
+    </div>
+
+  
+    <div class="gallery-item" data-category="nature" data-index="6"
+         role="button" tabindex="0" aria-label="Open image: Snowy Pine Ridge">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=600&q=80"
+          alt="Snow-laden pine trees on a quiet mountain ridge"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Snowy Pine Ridge</span>
+        <span class="caption-tag">Nature</span>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-category="city" data-index="7"
+         role="button" tabindex="0" aria-label="Open image: New York Dawn">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1522083165195-3424ed129620?w=600&q=80"
+          alt="Manhattan skyline glowing in early morning light"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">New York Dawn</span>
+        <span class="caption-tag">City</span>
+      </div>
+    </div>
+
+  
+    <div class="gallery-item" data-category="ocean" data-index="8"
+         role="button" tabindex="0" aria-label="Open image: Lone Surfer">
+      <div class="img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80"
+          alt="A lone surfer walking toward a wide sunset beach"
+          loading="lazy" />
+        <div class="overlay">
+          <span class="zoom-icon" aria-hidden="true">&#x2B0C;</span>
+        </div>
+      </div>
+      <div class="card-caption">
+        <span class="caption-title">Lone Surfer</span>
+        <span class="caption-tag">Ocean</span>
+      </div>
+    </div>
+
+  </main>
+
+  
+  <p class="no-results" id="noResults" aria-live="polite">
+    No photos in this category yet.
+  </p>
+
+
+  <div class="lightbox" id="lightbox" role="dialog"
+       aria-modal="true" aria-label="Image viewer">
+
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+
+    <div class="lightbox-card">
+
+      <button class="lb-close" id="lbClose" aria-label="Close image viewer">
+        &#x2715;
+      </button>
+
+      <div class="lb-img-wrap">
+        <img id="lbImage" src="" alt="" />
+      </div>
+
+      <div class="lb-footer">
+        <div class="lb-caption-block">
+          <span class="lb-title"  id="lbTitle"></span>
+          <span class="lb-tag"    id="lbTag"></span>
+        </div>
+        
+        <span class="lb-counter" id="lbCounter"></span>
+      </div>
+
+  
+      <div class="lb-nav">
+        <button class="lb-btn" id="lbPrev" aria-label="Previous image">
+        
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+          Prev
+        </button>
+        <button class="lb-btn" id="lbNext" aria-label="Next image">
+          Next
+          
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
