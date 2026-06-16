@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Keerthana ST — AI & Data Science Student Portfolio" />
+  <title>Keerthana ST | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <a href="#home" class="nav-logo" aria-label="Go to top">
+        KST <span class="logo-dot"></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#education"class="nav-link">Education</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume"   class="nav-link">Resume</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+              aria-controls="navLinks">
+      
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  
+  <section class="hero" id="home" aria-label="Introduction">
+
+     <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+
+    <div class="hero-content">
+
+    
+      <p class="hero-eyebrow">Hello, I'm</p>
+
+      <h1 class="hero-name" id="heroName">Keerthana ST</h1>
+
+      <p class="hero-role">
+        Artificial Intelligence &amp; Data Science Student
+      </p>
+
+      <p class="hero-intro">
+        Passionate about Web Development, Programming,
+        Artificial Intelligence, and Data Science.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section" id="about" aria-label="About me">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Who I am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid reveal">
+
+        <div class="about-avatar" aria-hidden="true">
+         <div class="avatar-circle">
+         <img src="images/profile.jpg" alt="Keerthana ST">
+         </div>
+          <div class="avatar-ring"></div>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I am an <strong>Artificial Intelligence and Data Science</strong>
+            student passionate about technology, programming, and
+            problem-solving. I enjoy learning and building projects using
+            <strong>HTML, CSS, JavaScript, Python, SQL</strong>, and
+            emerging AI technologies.
+          </p>
+          <p>
+            My goal is to develop innovative solutions and continuously
+            improve my technical skills through hands-on projects and
+            real-world applications.
+          </p>
+
+          <div class="about-chips">
+            <span class="chip">🎓 AI &amp; DS Student</span>
+            <span class="chip">💻 Web Developer</span>
+            <span class="chip">🤖 AI Enthusiast</span>
+            <span class="chip">📊 Data Explorer</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="education" aria-label="Education">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag">Current</span>
+            <h3 class="timeline-degree">
+              Bachelor of Technology
+            </h3>
+            <p class="timeline-field">
+              Artificial Intelligence and Data Science
+            </p>
+            <p class="timeline-meta">College Student · In Progress</p>
+            <p class="timeline-desc">
+              Studying core subjects including Machine Learning, Data Structures, Database Systems, and Web
+              Technologies. Actively building projects to apply classroom
+              concepts to real-world problems.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="skills" aria-label="Skills">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What I work with</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F310;</div>
+          <h3 class="skill-name">HTML5</h3>
+          <p class="skill-desc">Semantic markup, forms, accessibility</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 85%">
+            <div class="skill-bar" style="--bar:85%"></div>
+          </div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F3A8;</div>
+          <h3 class="skill-name">CSS3</h3>
+          <p class="skill-desc">Responsive design, Flexbox, Grid, animations</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 80%">
+            <div class="skill-bar" style="--bar:80%"></div>
+          </div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x26A1;</div>
+          <h3 class="skill-name">JavaScript</h3>
+          <p class="skill-desc">DOM manipulation, events, ES6+ features</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 75%">
+            <div class="skill-bar" style="--bar:75%"></div>
+          </div>
+          <span class="skill-pct">75%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F40D;</div>
+          <h3 class="skill-name">Python</h3>
+          <p class="skill-desc">Scripting, data analysis, ML libraries</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 80%">
+            <div class="skill-bar" style="--bar:80%"></div>
+          </div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F5C4;&#xFE0F;</div>
+          <h3 class="skill-name">SQL</h3>
+          <p class="skill-desc">Queries, joins, database design</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 50%">
+            <div class="skill-bar" style="--bar:50%"></div>
+          </div>
+          <span class="skill-pct">50%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F4E6;</div>
+          <h3 class="skill-name">Git &amp; GitHub</h3>
+          <p class="skill-desc">Version control, collaboration, open source</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 72%">
+            <div class="skill-bar" style="--bar:72%"></div>
+          </div>
+          <span class="skill-pct">72%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F9E0;</div>
+          <h3 class="skill-name">AI Fundamentals</h3>
+          <p class="skill-desc">ML concepts, supervised/unsupervised learning</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 50%">
+            <div class="skill-bar" style="--bar:50%"></div>
+          </div>
+          <span class="skill-pct">50%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">&#x1F4CA;</div>
+          <h3 class="skill-name">Data Science</h3>
+          <p class="skill-desc">EDA, visualisation, statistics, pandas/numpy</p>
+          <div class="skill-bar-track" aria-label="Proficiency: 40%">
+            <div class="skill-bar" style="--bar:40%"></div>
+          </div>
+          <span class="skill-pct">40%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="projects" aria-label="Projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Things I've built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal" aria-label="Calculator project">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">🧮</span>
+            <span class="project-badge">HTML · CSS · JS</span>
+          </div>
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-desc">
+            Developed a responsive calculator application using HTML, CSS, and JavaScript 
+            with support for basic arithmetic operations and interactive user experience.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="https://github.com/stkeerthana-tech/CodeAlpha_Projects/tree/main/CodeAlpha_Calculator"
+             class="btn btn-ghost project-btn"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="View Calculator on GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </article>
+
+        <article class="project-card reveal" aria-label="Image Gallery project">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">🖼️</span>
+            <span class="project-badge">HTML · CSS · JS</span>
+          </div>
+          <h3 class="project-title">Image Gallery</h3>
+          <p class="project-desc">
+            A responsive photo gallery with category filters, a full-screen
+            lightbox viewer, Prev/Next navigation, swipe support, and smooth
+            hover animations.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="https://github.com/stkeerthana-tech/CodeAlpha_Projects/tree/main/CodeAlpha_Image-gallery"
+             class="btn btn-ghost project-btn"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="View Image Gallery on GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </article>
+
+        <article class="project-card reveal" aria-label="Personal Portfolio project">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">🌐</span>
+            <span class="project-badge">HTML · CSS · JS</span>
+          </div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">
+            A single-page responsive website with sticky
+            navigation, scroll-reveal animations, a hamburger menu, and
+            a contact form. Designed for internship submissions.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="https://github.com/keerthanast"
+             class="btn btn-ghost project-btn"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="View Portfolio on GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </article>
+
+      <article class="project-card reveal" aria-label="Music Player project">
+       <div class="project-top">
+        <span class="project-icon" aria-hidden="true">🎵</span>
+        <span class="project-badge">HTML · CSS · JS</span>
+       </div>
+
+      <h3 class="project-title">Music Player Website</h3>
+
+      <p class="project-desc">
+     A modern web-based music player featuring play, pause, next,
+     previous, progress tracking, album artwork, and responsive design.
+     Built using HTML, CSS, and JavaScript to provide an engaging music
+     listening experience.
+      </p>
+
+    <div class="project-tags">
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS3</span>
+      <span class="tag">JavaScript</span>
+  </div>
+
+  <a href="https://github.com/stkeerthana-tech/CodeAlpha_Projects/tree/main/CodeAlpha_Music-Player"
+     class="btn btn-ghost project-btn"
+     target="_blank"
+     rel="noopener noreferrer">
+     View on GitHub
+  </a>
+</article>
+
+      <article class="project-card reveal" aria-label="Library Management System project">
+       <div class="project-top">
+           <span class="project-icon" aria-hidden="true">📚</span>
+           <span class="project-badge">Java · SQL</span>
+          </div>
+          <h3 class="project-title">Library Management System<br>[In Progress]</h3>
+          <p class="project-desc">
+            A console-based application to manage books, members, and
+            borrow/return records. Built with Java and SQL for persistent
+            data storage and efficient querying.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">SQL</span>
+            <span class="tag">In Progress</span>
+          </div>
+          <a href="https://github.com/stkeerthana-tech/Library-Management-System"
+             class="btn btn-ghost project-btn"
+             target="_blank" rel="noopener noreferrer" 
+             aria-label="View Library Management System on GitHub">
+          
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                 aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166
+                       6.839 9.489.5.092.682-.217.682-.482
+                       0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342
+                       -3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462
+                       -.908-.62.069-.608.069-.608 1.003.07 1.531 1.03
+                       1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647
+                       .35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943
+                       0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27
+                       .098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0
+                       0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.294
+                       2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647
+                       .64.699 1.028 1.592 1.028 2.683 0 3.842-2.339
+                       4.687-4.566 4.935.359.309.678.919.678 1.852
+                       0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48
+                       C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10
+                       -10-10z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+  <section class="section resume-section" id="resume" aria-label="Resume">
+    <div class="container">
+      <div class="resume-card reveal">
+        <div class="resume-text">
+          <span class="section-eyebrow">My credentials</span>
+          <h2 class="section-title" style="margin-top:8px">Download Resume</h2>
+          <p>
+            Get a PDF copy of my resume with full details on my education,
+            projects, skills, and contact information — ready for internship
+            applications.
+          </p>
+        </div>
+        <a href="images/Resume.pdf"
+           class="btn btn-primary btn-large"
+           download
+           aria-label="Download Keerthana ST resume PDF">
+          
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="contact" aria-label="Contact">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Let's connect</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+
+          <a href="mailto:stkeerthana27@gmail.com"
+             class="contact-card" aria-label="Send email">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">stkeerthana27@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/keerthana-st-42a0823aa/"
+             class="contact-card"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Visit LinkedIn profile">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <p class="contact-value">linkedin.com/in/keerthanast</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/stkeerthana-tech"
+             class="contact-card"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Visit GitHub profile">
+            <span class="contact-icon">
+            
+              <svg width="24" height="24" viewBox="0 0 24 24"
+                   fill="currentColor" aria-hidden="true">
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166
+                         6.839 9.489.5.092.682-.217.682-.482
+                         0-.237-.009-.868-.013-1.703-2.782.605
+                         -3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462
+                         -1.11-1.462-.908-.62.069-.608.069-.608
+                         1.003.07 1.531 1.03 1.531 1.03.892 1.529
+                         2.341 1.088 2.91.832.092-.647.35-1.088
+                         .636-1.338-2.22-.253-4.555-1.11-4.555-4.943
+                         0-1.091.39-1.984 1.029-2.683-.103-.253
+                         -.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025
+                         A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1
+                         2.504.337c1.909-1.294 2.747-1.025 2.747-1.025
+                         .546 1.377.202 2.394.1 2.647.64.699 1.028 1.592
+                         1.028 2.683 0 3.842-2.339 4.687-4.566 4.935
+                         .359.309.678.919.678 1.852 0 1.336-.012 2.415
+                         -.012 2.741 0 .267.18.578.688.48C19.138 20.163
+                         22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <p class="contact-value">github.com/keerthanast</p>
+            </div>
+          </a>
+
+        </div>
+
+        <form class="contact-form reveal" id="contactForm"
+              novalidate aria-label="Send a message">
+
+          <div class="form-group">
+            <label for="formName">Name</label>
+            <input type="text" id="formName" name="name"
+                   placeholder="Your full name"
+                   autocomplete="name" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="formEmail">Email</label>
+            <input type="email" id="formEmail" name="email"
+                   placeholder="your@email.com"
+                   autocomplete="email" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="formMessage">Message</label>
+            <textarea id="formMessage" name="message"
+                      rows="5"
+                      placeholder="Write your message here..."
+                      required></textarea>
+            <span class="form-error" id="msgError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message
+          </button>
+
+          <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Keerthana ST. Crafted with HTML,
+        CSS &amp; JavaScript.
+      </p>
+      <a href="#home" class="footer-top" aria-label="Back to top">
+        ↑ Back to top
+      </a>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop"
+          aria-label="Scroll back to top"
+          title="Back to top">
+    ↑
+  </button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
